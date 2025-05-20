@@ -1,18 +1,21 @@
-## 🌍 TripMate – AI Travel Itinerary Generator
+<h1 align="center"> TripMate – AI Travel Itinerary Generator </h1>
 
-An AI-powered travel planner built with **Streamlit**, **LangChain**, and **Hugging Face Transformers** that helps you generate a personalized, day-by-day travel itinerary based on your destination, interests, budget, and season. Perfect for travelers looking for instant, intelligent, and editable trip plans!
+<div align="center">
+  <img height="200" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWcxNjVsZGZrYm1qc3B4emtiOXI1OXFrcW16czU5cGI3dGNmenllaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jK35sw9qGlRYlgGBls/giphy.gif"  />
+</div>
+<br> 
+
+<p align="justify"> An AI-powered travel planner built with <b></b>Streamlit, LangChain, and Hugging Face Transformers</b> that helps you generate a personalized, day-by-day travel itinerary based on your destination, interests, budget, and season.</p>
+
+<p align="justify">Perfect for travelers looking for instant, intelligent, and editable trip plans! </p>
 
 ---
 
 ## 🚀 Features
 
 * 🧳 Input your travel details: destination, days, interests, budget, and preferred season
-* 🗺️ Generates a fully detailed, AI-crafted travel itinerary using natural language processing
-* ✍️ Provides an editable text box so you can customize your itinerary
+* 🗺️ Generates a fully detailed, AI-crafted travel itinerary
 * 📥 Download your itinerary as a `.txt` file for offline use
-* 🤗 Uses **Flan-T5** via Hugging Face Transformers
-* 🧠 Enhanced with **LangChain** for modular LLM workflows
-* 🔐 API keys managed securely via `.env` configuration
 
 ---
 
@@ -25,28 +28,24 @@ An AI-powered travel planner built with **Streamlit**, **LangChain**, and **Hugg
 
 ---
 
+## 🎥 Demo Video
+Watch how NutriMate works in action : [Click Here](https://youtube.com/shorts/2I6ErINhOMA?si=pKYIm-f7L5C2VLFD)
+
+---
+
 ## 💡 How to Run Locally
 
-### 1. Clone the repository
+1. Clone the repository
 
-```bash
-git clone https://github.com/yourusername/tripmate-ai-planner.git
-cd tripmate-ai-planner
-```
-
-### 2. Create your `.env` file with Hugging Face token
+2. Create your `.env` file with Hugging Face token
 
 ```env
 HUGGINGFACE_API_KEY=your-huggingface-token-here
 ```
 
-### 3. Install dependencies
+3. Install dependencies
 
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run the app
+4. Run the app
 
 ```bash
 streamlit run tripmate_ai_app.py
@@ -62,5 +61,4 @@ streamlit run tripmate_ai_app.py
 
 ---
 
-Built by **Mayusha Athukorala**
-BSc in Applied Data Science Communication | KDU
+Built by **Mayusha Athukorala** | BSc in Applied Data Science Communication | KDU
